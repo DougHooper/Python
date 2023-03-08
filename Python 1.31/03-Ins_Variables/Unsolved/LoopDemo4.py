@@ -1,3 +1,7 @@
+# forloops - count controlled loops
+# designed to execute a set number of times
+# value in the loop contorl variable can be changed to contorl the number of iterations. 
+
 """
     basic for loop structure
 ​
@@ -7,6 +11,7 @@
     when range(single number) - loop starts at 0 and repeats number - 1
     when range(start, finish) - loop starts at start and repeats until finish - 1
     when range(start, finish, increment) - loop starts at start and repeats until finish-1 and increments by the third value
+
 """
 #for x in range(10):
 #    print(x) # displays 0 - 9 on separate lines
@@ -39,9 +44,9 @@ list1 = ["alpha", "beta", "gamma", "delta"]
 #    print(item) # displays each item on separate lines
 
 
-#for i in range(len(list1)):
-#    if i < 2:
-#        print(list1[i]) # displays the first two items from the list
+for b in range(len(list1)):
+    if b < 2:
+       print(list1[b]) # displays the first two items from the list
 
 #for item in list1:
 #    if len(item) == 5: #checks for the length of the characters in the string
@@ -60,6 +65,6 @@ list1 = ["alpha", "beta", "gamma", "delta"]
 for item in list1:
     if len(item) == 5: #checks for the length of the characters in the string
         print(item)
-        print("*******************")
+        print("\n*******************\n")
         for letter in item:
             print(letter) # prints each letter of each word that is 5 characters on separate 

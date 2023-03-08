@@ -27,3 +27,10 @@ while repeat > 0:
   # combined assignment operator
     repeat -= 1 # same as repeat = repeat - 1
     # can also be used with +=, *=, /=, and %= (can only be used with ints)
+
+variable = 5
+
+while variable > 0:
+    print("This is a variable statement from a loop")
+
+    variable -= 1

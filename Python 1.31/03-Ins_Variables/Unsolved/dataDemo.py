@@ -31,3 +31,23 @@ print("num1 =" + str(flag)) # str() converts the boolean to a string and adds to
 
 print(f"num1 = + str{num1}, text1 = {text1}") # formatted string of output
 # if data has '' or "" outter part of double string has to be double and single on inner or vice versa
+
+"""
+
+    arithmetic in Python
+    +
+    -
+    *
+    /
+
+    In VB, mod for modulat division
+    In Python, use % symbol
+
+        4 / 2 = 2
+
+        4 % 2 = 0 (show what the remainder whould be only)
+
+"""
+
+# using regular print statement, dispay the following output
+# "Module 3 is our Python Unit" (where 3 is in 'unit', and Python is in 'topic')

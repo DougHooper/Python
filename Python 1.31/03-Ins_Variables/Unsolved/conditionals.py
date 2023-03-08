@@ -8,17 +8,39 @@ b = 10
         if statements
         
         '''
-            VB:
+            VB: 
             If condition Then
                 statement(s)
 
-
+            End if
         '''
+        '''
+        Python: 
+        if condition: 
+            statement(s)
+
+            if the statement is false in single alternative then the whole condition gets skipped. 
         
+        '''
 
      dual alterantives
 
         if / else statemetns
+
+        '''
+        VB:
+        If condition Then
+            statement(s)
+        Else:
+            statement(s)
+        End If   
+        
+        Python: 
+        if condition: 
+            statement(s)
+        else:
+            statement(s)
+        '''
         
     
     multiple alternatives
@@ -31,7 +53,7 @@ b = 10
                 statement(s)
             ElseIf condition Then
                 statement(s)
-            Else    
+            Else:    
                 statement(s)
             End If
         '''
@@ -46,14 +68,14 @@ b = 10
                 statement(s)
         '''
 
-    Relational operators in Python: 
+    Relational operators in Python: logic for your conditionals 
 
     > greater than
     < less than
     >= greater than or equal to 
     <= less than or equal to
     == is equal to (do not confuse with single =)
-    ! not (changes tru/false)
+    not (changes tru/false)
     != is not equal to 
     and - logical and
     or - logical or

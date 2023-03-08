@@ -23,4 +23,6 @@ meetingNumber = int(input("How many bootcamp class meetings have been held? "))
 print(f"So far, we have met {meetingNumber} times.")
 print(f"Next class, will be meeting #{(meetingNumber+1)}.")
 
+# need to convert the input to an interger if you want to do a numeric calculation
+# put the variable in the curly brackets around parenthesis to do a calculation
 

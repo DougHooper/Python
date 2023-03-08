@@ -35,3 +35,6 @@ print("Module " + str(unit) + " is our " + topic + " Unit")
 # using a formatted string print statement, display the following output
 # "Module 3 is our Python Unit" (where 3 is in unit, and Python is in 'topic')
 print(f'Module {unit} is our {topic} Unit')
+
+# print("4 % 2 = " + str(4 % 2))
+
