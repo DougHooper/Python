@@ -9,7 +9,7 @@ import csv
 #../Resources/contacts.csv
 
 # instead, we use os.path.join to form a path to the csv file
-csvFilePath = os.path.join("..", "..", "Resources", "contacts.csv")
+csvFilePath = os.path.join("..", "Resources", "contacts.csv")
 
 # use the with open() functino to open the csvFilePath into an object
 with open(csvFilePath) as csvFile:
