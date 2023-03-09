@@ -43,5 +43,3 @@ for row in csvReader:
 outputFilePath = os.path.join("..", "Resources", "output.csv")
 
 with open(outputFilePath, "w") as csvOutput:
-
-        # use the csv .writer() module to write information to a file
