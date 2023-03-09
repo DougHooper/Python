@@ -17,7 +17,14 @@ with open(csvFilePath) as csvFile:
 #csv module .reader() function specifies the delimiter and object name for the reader in the open() function
         csvReader = csv.reader(csvFile, delimiter=",")
 
+        #the csvReader has the info in the file, split into rows of lists
+        #that correspond to each row of data in the file
+
+        # if the first row has header data, use next() to pass over the row
+        header = next(csvReader)
+
         # the csvReader has the info in the file, split into rows of lists
         #that correspond to each row of data in the file
         for row in csvReader:
                 print(row)
+                
